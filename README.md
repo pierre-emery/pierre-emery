@@ -8,7 +8,7 @@ Hi I am a data science student at the University of Montreal.
 
 - **NHL Hockey Analytics — Expected Goals (xG)**
   This project was a project meant for graduate students in the IFT6758 course. A friend of mine and myself decided to tackle it as a personal project and it is still in progress. For now we built a play-by-play data pipeline, engineered shot/context features (distance,   angle, game state), trained and evaluated models (logistic regression, XGBoost), and produced visualizations (interactive shot maps, ROC/calibration). 
-  → Code: <[Project Repository](https://github.com/Stephanope/Project-Hockey)> | Results/Blog: <[Blog/Results Repository](https://github.com/Stephanope/Blogpost-Hockey)>
+  → Code: [Project Repository](https://github.com/Stephanope/Project-Hockey) | Results/Blog: [Blog/Results Repository](https://github.com/Stephanope/Blogpost-Hockey)
 
 - **Introduction to Machine Learning – EPFL (CS-233)**  
   Classification on a tabular (heart disease) dataset (k-NN, logistic regression, k-means from scratch) and deep learning on medical images (DermaMNIST dataset) (MLP/CNN with PyTorch).  
@@ -24,7 +24,7 @@ Hi I am a data science student at the University of Montreal.
 
 - **Second Brain — Course Notes & Knowledge Base (Obsidian)**  
   Structured note-taking system for university courses related to machine learning 
-  → Repository: <[Repository](https://github.com/pierre-emery/second_brain)>
+  → Repository: [Repository](https://github.com/pierre-emery/second_brain)
 
 ---
 
