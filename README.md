@@ -23,8 +23,8 @@ Hi I am a data science student at the University of Montreal.
   → [Repository](https://github.com/pierre-emery/bioinfo_plast)
 
 - **Second Brain — Course Notes & Knowledge Base (Obsidian)**  
-  Structured note-taking system for university courses related to machine learning 
-  → Repository: [Repository](https://github.com/pierre-emery/second_brain)
+  Structured note-taking system for university courses related to machine learning.
+  → [Repository](https://github.com/pierre-emery/second_brain)
 
 ---
 
