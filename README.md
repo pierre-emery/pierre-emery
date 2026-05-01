@@ -4,7 +4,29 @@ Hi I am a data science student at the University of Montreal.
 
 ---
 
-## 🧠 Projects
+## Projects
+
+- **Glacier Segmentation from Satellite Imagery**  
+  End-to-end supervised segmentation pipeline for alpine glaciers using
+  multispectral satellite imagery. Built a quality-aware data pipeline
+  (cloud/shadow scoring on Sentinel-2 SCL, median compositing, GLIMS
+  outline rasterization), trained a U-Net with Attention Gates on
+  Caucasus glaciers, and evaluated cross-region generalization on the
+  Alps and Andes. Reached 0.83 IoU, outperforming a 5× larger
+  ImageNet-pretrained DeepLabV3+ baseline.  
+  → [Repository](https://github.com/pierre-emery/projet_glacier)
+
+- **Montréal Road Collisions — Clustering & Classification**  
+  End-to-end data science pipeline on 218k road collisions from the City
+  of Montréal open dataset (2012–2021). Built data cleaning with 
+  conditional imputation applied post train/val/test split to prevent 
+  leakage, compared two clustering algorithms (K-means, DBSCAN) on 
+  PCA-reduced features, and benchmarked supervised classifiers (SVM, 
+  Random Forest, Decision Tree) under three class imbalance strategies 
+  (baseline, class weighting, SMOTE). Final evaluation on a held-out 
+  test set, with focus on the accuracy/recall trade-off for the 
+  minority class (<1% of observations).  
+  → [Repository](https://github.com/pierre-emery/classification_accidents)
 
 - **NHL Hockey Analytics — Expected Goals (xG)**
   This project was a project meant for graduate students in the IFT6758 course. A friend of mine and myself decided to tackle it as a personal project and it is still in progress. For now we built a play-by-play data pipeline, engineered shot/context features (distance,   angle, game state), trained and evaluated models (logistic regression, XGBoost), and produced visualizations (interactive shot maps, ROC/calibration). 
@@ -22,19 +44,7 @@ Hi I am a data science student at the University of Montreal.
   Implemented a simplified BLASTN-style local alignment tool (PLAST): seed-and-extend search with contiguous/spaced seeds, greedy HSP extension, and bitscore / E-value filtering for significant hits.  
   → [Repository](https://github.com/pierre-emery/bioinfo_plast)
 
-- **Second Brain — Course Notes & Knowledge Base (Obsidian)**  
-  Structured note-taking system for university courses related to machine learning.
-  → [Repository](https://github.com/pierre-emery/second_brain)
-
 ---
-
-## 🛠️ Languages & Tools
-
-- **Languages:** Python, R, Java  
-- **Tools:** Git, VS Code, RStudio, LaTeX, Jupyter, PyTorch, Obsidian
-
----
-
 
 ## 🎓 Academic background
 
@@ -43,7 +53,7 @@ Hi I am a data science student at the University of Montreal.
 
 ---
 
-## 📫 Contact
+## Contact
 
 - GitHub: [@pierre-emery](https://github.com/pierre-emery)  
 - Email: pierre.emery@umontreal.ca
